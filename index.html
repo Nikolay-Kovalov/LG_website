@@ -1,9 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-wrapper">
+          <div class="logo"><p class="logo-text">LOGO</p></div>
+          <div class="nav-wrapper">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="/index.html" class="nav-link active-white"
+                    >Головна</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./about.html" class="nav-link main-link">Хто ми</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link main-link">Що ми робимо</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link main-link">Проекти</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link main-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+            <div>
+              <button class="lang-btn">УКР</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="hero-wrapper">
+        <section class="hero">
+          <div class="hero-container">
+            <div class="hero-slogan-wrapper">
+              <h1 class="hero-title">В тебе є проблема - у нас є рішення</h1>
+              <button class="hero-btn">Залишити заявку</button>
+            </div>
+            <img
+              class="hero-lawyer-img"
+              src="./images/Hero-man.png"
+              alt="картинка із зображенням юриста"
+            />
+            <img
+              class="hero-scales-img"
+              src="./images/Hero-scales.png"
+              alt="картинка із зображенням вагів та молотка"
+            />
+          </div>
+        </section>
+        <section class="questions">
+          <div class="container questions-container">
+            <ul class="question-list">
+              <li class="question-item-shop">
+                <p class="question-text shop">
+                  Магазин відмовляється повернути кошти за неякісний товар?
+                </p>
+              </li>
+              <li class="question-item-salary">
+                <p class="question-text salary">
+                  Роботодавець не виплачує заробітну плату або не сплачує
+                  податки?
+                </p>
+              </li>
+              <li class="question-item-fired">
+                <p class="question-text">Тебе звільнили безпідставно?</p>
+              </li>
+              <li class="question-item-debt">
+                <p class="question-text">Хтось не повертає борг?</p>
+              </li>
+              <li class="question-item-police">
+                <p class="question-text">Поліція тебе оштрафувала?</p>
+              </li>
+              <li class="question-item-estimate">
+                <p class="question-text estimate">
+                  Викладач невірно оцінив твою роботу?
+                </p>
+              </li>
+              <li class="question-item-answer">
+                <p class="question-text answer">
+                  Дeржавна установа не відповідє на запит?
+                </p>
+              </li>
+              <li class="question-item-problem">
+                <p class="question-text problem">
+                  Ти стикнувся з іншою юридичною проблемою?
+                </p>
+              </li>
+            </ul>
+            <img
+              class="question-img"
+              src="./images/question-img.png"
+              alt="картинка із зображенням жінки яка сидить з ноутбуком на колінах"
+            />
+          </div>
+        </section>
+      </div>
+      <section class="help">
+        <div class="container help-container">
+          <h1 class="help-title">
+            Отримай юридичну допомогу у три простих кроки!
+          </h1>
+          <div class="first-step-wrapper">
+            <div class="img-wrapper">
+              <img
+                class="yellow-circle-img"
+                src="./images/Yellow-circle 4.png"
+                alt=""
+              />
+              <img
+                class="first-step-img"
+                src="./images/first-step.png"
+                alt=""
+              />
+            </div>
+            <div class="first-step-text-wrapper">
+              <p class="first-step-text">
+                Якщо ти не бажаєшь витрачати велики кошти на консультації
+                адвокатів,тисни тут та заповнюй форму
+              </p>
+              <button class="help-btn">Залишити заявку</button>
+            </div>
+          </div>
+          <img class="strange-arrow" src="./images/strange-arrow.png" alt="" />
+          <p class="second-step-text">
+            Наша команда розгляне надану інформацію та у найкоротші терміни
+            повідомить про подальші дії
+          </p>
+          <div class="second-step-wrapper">
+            <img
+              class="yellow-circle-img yellow-circle-second"
+              src="./images/Yellow-circle 4.png"
+              alt=""
+            />
+            <img
+              class="second-step-img"
+              src="./images/second-step.png"
+              alt=""
+            />
+          </div>
+          <div class="third-step-wrapper">
+            <img
+              class="yellow-circle-img yellow-circle-third"
+              src="./images/Yellow-circle 4.png"
+              alt=""
+            />
+            <img class="third-step-img" src="./images/third-step.png" alt="" />
+          </div>
+          <p class="third-step-text">
+            У тісній співпраці з тобою наша команда вирішує ситуацію.
+          </p>
+        </div>
+      </section>
+      <section class="social-medias">
+        <div class="container">
+          <h1 class="sm-title">Ми у соц мережах</h1>
+          <div class="sm-wrapper">
+            <ul class="sm-list">
+              <li class="sm-item">
+                <div class="icon-wrapper"></div>
+                <p icon-text>INSTAGRAMM</p>
+              </li>
+              <li class="sm-item">
+                <div class="icon-wrapper"></div>
+                <p icon-text>FACEBOOK</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div><p>LOGO</p></div>
+          <ul class="footer-list">
+            <li class="footer-item"><p class="footer-item-text">FAQ</p></li>
+            <li class="footer-item">
+              <p class="footer-item-text">Політика співробітництва</p>
+            </li>
+            <li class="footer-item">
+              <p class="footer-item-text">Політика конфіденційності</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js" type="module"></script>
+  </body>
 </html>
