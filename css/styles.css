@@ -335,12 +335,13 @@ header {
     margin-top: 360px;
     text-align: center;
     height: 1720px;
-    /* background-image: url('../images/help-bg.png');
-    background-position: 1200px 240px;
-    background-repeat: no-repeat; */
+
 
 }
 
+/* background-image: url('../images/help-bg.png');
+        background-position: 1200px 240px;
+        background-repeat: no-repeat; */
 .help .container {
     position: relative;
 }
