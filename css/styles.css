@@ -543,3 +543,48 @@ footer {
     font-size: 18px;
     color: #333;
 }
+
+
+/* about page */
+
+.about {
+
+    padding-top: 196px;
+    height: 1600px;
+    background-image: url('../images/About-BG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 358px;
+
+}
+
+.about .container {
+    position: relative;
+}
+
+.about-title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    width: 1000px;
+}
+
+.about-text-wrapper {
+    width: 880px;
+    height: 520px;
+    background-color: white;
+    margin: 426px auto 0px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-img {
+    position: absolute;
+    right: 0;
+    top: 194px;
+    width: 850px;
+    height: 418px;
+}
+
+.about-text {
+    padding: 36px 72px
+}
