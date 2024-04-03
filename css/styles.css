@@ -623,3 +623,92 @@ footer {
 .about-text {
     font-size: 18px;
 }
+
+
+/* services page */
+
+.services {
+    padding-top: 196px;
+}
+
+.active-service {
+    color: white;
+}
+
+.services .container {
+    position: relative;
+}
+
+.services-bg-img {
+    position: absolute;
+    top: -196px;
+    left: -300px;
+    z-index: -4;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.services-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    width: 420px;
+    height: 420px;
+    box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.court-title {
+    width: 380px;
+}
+
+.services-img {
+    width: 245px;
+    height: 245px;
+}
+
+.argue-text {
+    margin-top: 36px;
+}
+
+.fines {
+    width: 275px;
+    height: 275px;
+}
+
+.cars {
+    width: 300px;
+}
+
+.court,
+.students {
+    width: 420px;
+}
+
+
+.students {
+    width: 380px;
+}
+
+.house {
+    width: 275px;
+}
+
+.services-item-title {
+    text-align: center;
+    color: #FFC158;
+    font-size: 24px;
+}
