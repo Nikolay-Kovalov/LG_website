@@ -30,13 +30,6 @@ img {
     display: block;
 }
 
-
-
-/* 
-body {
-    position: relative;
-} */
-
 .container {
     margin: 0 auto;
     width: 1320px;
@@ -108,14 +101,12 @@ header {
     height: 1279px;
     background-image: url('../images/Hero-bg-image-1.png');
     background-repeat: no-repeat;
-    /* background-size: contain; */
     background-position: -300px -100px;
 }
 
 .hero-wrapper {
     height: 100%;
     background-image: url('../images/Hero=bg-image-2.png');
-    /* background-position: -440px 110px; */
     background-position: -300px 130px;
     background-repeat: no-repeat;
 }
