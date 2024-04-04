@@ -99,17 +99,20 @@ header {
 
 .hero {
     padding-top: 244px;
-    height: 1279px;
-    /* background-image: url('../images/Hero-bg-image-1.png');
+    height: 1340px;
+    background-image: url('../images/Hero-bg-image-1.png');
     background-repeat: no-repeat;
-    background-position: 0 -100px; */
+    background-position: top;
+    /* background-position: 0 -100px; */
+    /* background-size: cover; */
 }
 
 .hero-wrapper {
     height: 100%;
-    /* background-image: url('../images/Hero=bg-image-2.png');
-    background-position: 0 130px;
-    background-repeat: no-repeat; */
+    background-image: url('../images/Hero=bg-image-2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 
 .hero-slogan-wrapper {
@@ -335,15 +338,18 @@ header {
     margin-top: 360px;
     text-align: center;
     height: 1720px;
+    background-image: url('../images/help-bg.png');
+    background-position: 1200px 240px;
+
+    background-repeat: no-repeat;
 
 
 }
 
-/* background-image: url('../images/help-bg.png');
-        background-position: 1200px 240px;
-        background-repeat: no-repeat; */
+
 .help .container {
     position: relative;
+
 }
 
 .help-img {
@@ -577,11 +583,11 @@ footer {
 .about {
 
     padding-top: 196px;
-    height: 1840px;
-    /* background-image: url('../images/About-BG.png');
+    height: 1860px;
+    background-image: url('../images/About-BG.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 358px; */
+
+    background-position: bottom;
 
 }
 
@@ -629,10 +635,15 @@ footer {
 
 .services {
     padding-top: 196px;
+    background-image: url('../images/Services-bg-img.png');
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .active-service {
     color: white;
+
+
 }
 
 .services .container {
